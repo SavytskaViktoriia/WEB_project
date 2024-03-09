@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#Home"></a>Home</li>
+            <li><a href="#Tours"></a>Tours</li>
+            <li><a href="#Explore"></a>Explore</li>
+            <li><a href="#About"></a>About</li>
+            <li class="ctn"><a href="#Contacts"></a>Contacts</li>
+        </ul>
+        <img src="./images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>The Everest Base Camp Trek offers breathtaking 
+                    vistas of the world's highest peak, 
+                    Mount Everest, along with an immersive 
+                    journey through the unique culture and landscapes 
+                    of the Himalayas.</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Walking holidays provide an ideal opportunity 
+                    to explore stunning landscapes, immerse oneself in nature, 
+                    and indulge in physical activity amidst serene surroundings.</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>
+                Embark on a journey to explore the world's wonders, 
+                from ancient ruins to bustling cities, 
+                and immerse yourself in diverse cultures and 
+                breathtaking landscapes. 
+                Whether trekking through remote wilderness or 
+                strolling along historic streets, each adventure 
+                promises discovery, growth, and unforgettable experiences.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Discover a world of possibilities with our 
+                    upcoming tours and destinations, offering 
+                    travelers a chance to explore iconic landmarks, 
+                    hidden gems, and cultural treasures across the globe. 
+                    From majestic mountains to sun-kissed beaches, 
+                    our diverse selection ensures an unforgettable 
+                    adventure tailored to every explorer's passion 
+                    and curiosity.</p>
+                <a href="#" class="ctn">Learn More</a>    
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img3.png" alt="">
+                    <img src="./images/img4.png" alt="">
+                    <img src="./images/img5.png" alt="">
+                    <img src="./images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>ADVENTURE</p>
+        <p>Made by Savytska Viktoriia</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=> {
+            navlinks.classList.toggle('mobile-menu');
+        });
+    </script>
+    
+</body>
+</html>
