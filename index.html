@@ -41,19 +41,19 @@
             <div class="col">
                 <img src="./images/img1.png" alt="">
                 <h4>Everest Camp Trek</h4>
-                <p>The Everest Base Camp Trek offers breathtaking 
+                <p><em>The Everest Base Camp Trek offers breathtaking 
                     vistas of the world's highest peak, 
                     Mount Everest, along with an immersive 
                     journey through the unique culture and landscapes 
-                    of the Himalayas.</p>
+                    of the Himalayas.</em></p>
                     <a href="#" class="ctn">Learn More</a>
             </div>
             <div class="col">
                 <img src="./images/img2.png" alt="">
                 <h4>Walking Holidays</h4>
-                <p>Walking holidays provide an ideal opportunity 
+                <p><em>Walking holidays provide an ideal opportunity 
                     to explore stunning landscapes, immerse oneself in nature, 
-                    and indulge in physical activity amidst serene surroundings.</p>
+                    and indulge in physical activity amidst serene surroundings.</em></p>
                     <a href="#" class="ctn">Learn More</a>
             </div>
         </div>
@@ -75,19 +75,38 @@
         </div>
     </section>
 
+
     <section class="tours">
         <div class="row">
             <div class="col content-col">
                 <h1>UPCOMING TOURS & DESTINATION</h1>
                 <div class="line"></div>
-                <p>Discover a world of possibilities with our 
-                    upcoming tours and destinations, offering 
-                    travelers a chance to explore iconic landmarks, 
-                    hidden gems, and cultural treasures across the globe. 
-                    From majestic mountains to sun-kissed beaches, 
-                    our diverse selection ensures an unforgettable 
-                    adventure tailored to every explorer's passion 
-                    and curiosity.</p>
+                <table class="tour-table">
+                    <thead>
+                        <tr>
+                            <th>Destination</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Everest Base Camp</td>
+                            <td>Trek through the Himalayas to the base of Mount Everest.</td>
+                            <td>$2000</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon Rainforest</td>
+                            <td>Explore the diverse ecosystem of the Amazon Rainforest.</td>
+                            <td>$2500</td>
+                        </tr>
+                        <tr>
+                            <td>Sahara Desert</td>
+                            <td>Experience the vastness of the Sahara Desert on a camel safari.</td>
+                            <td>$1800</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <a href="#" class="ctn">Learn More</a>    
             </div>
             <div class="col image-col">
@@ -100,10 +119,45 @@
             </div>
         </div>
     </section>
+    
+
+    <section class="forms">
+        <div class="form">
+            <h2>Feedback form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">SMS:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    
+        <div class="form">
+            <h2>Registration form</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+    </section>
+    
+
+
+
 
     <section class="footer">
-        <p>ADVENTURE</p>
+        <p style="color: azure;">ADVENTURE</p>
         <p>Made by Savytska Viktoriia</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ssavits.ka"><img src="./images/instagram-icon.png" alt="Instagram" style="width: 40px; height: 40px;"></a>
+        </div>
     </section>
 
     <script>
