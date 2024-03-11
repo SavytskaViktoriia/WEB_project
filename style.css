@@ -64,6 +64,29 @@ body, html {
     margin: 0 30px;
 }
 
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 16px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0bd1d1;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
 header {
     width: 100vw;
     height: 100vh;
@@ -213,6 +236,80 @@ p {
     margin-left: -100px;
 }
 
+.tour-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tour-table th,
+.tour-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tour-table th {
+    background-color: #f2f2f2;
+}
+
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #484872;
+}
+
+.form h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
 .footer {
     width: 100%;
     min-height: 100px;
@@ -220,10 +317,21 @@ p {
     margin: 0;
     background: #484872;
     text-align: left;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
+
 .footer p {
     color: whitesmoke;
     margin: 20px auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 850px){
@@ -302,4 +410,5 @@ li:hover {
     color: #0ea5ea;
     cursor: zoom-out;
 }
+
 
