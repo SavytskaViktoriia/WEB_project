@@ -5,6 +5,33 @@ body {
     background-color: #484872; 
 }
 
+
+.button-container {
+    text-align: center; 
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px; 
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#0ea5ea, #0bd1d1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+
+.button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
 form {
     max-width: 600px;
     margin: 20px auto;
@@ -51,57 +78,61 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
+
+input[type="radio"]:checked + .season-label:before {
+    background-color: blue;
+}
+
 small {
     color: #666; 
 }
 
 input[type="checkbox"] {
-    display: none; /* Приховуємо стандартний чекбокс */
+    display: none;
 }
 
 label {
-    cursor: pointer; /* Змінюємо курсор при наведенні на мітку */
-    display: inline-block; /* Встановлюємо мітку як блочний елемент */
-    padding-left: 25px; /* Додаємо відступ зліва для відображення кастомного чекбоксу */
-    position: relative; /* Встановлюємо позицію мітки */
+    cursor: pointer;
+    display: inline-block; 
+    padding-left: 25px; 
+    position: relative;
 }
 
-/* Стилізуємо кастомний чекбокс */
+
 input[type="checkbox"] + label:before {
     content: "";
     display: inline-block;
-    width: 10px; /* Розмір квадратика */
+    width: 10px; 
     height: 10px;
-    border: 1px solid #484872; /* Обводка квадратика */
-    background-color: white; /* Фон квадратика */
+    border: 1px solid #484872; 
+    background-color: white; 
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translateY(-50%); /* Центруємо вертикально */
+    transform: translateY(-50%); 
 }
 
-/* Стилізуємо кастомний чекбокс при відмітці */
+
 input[type="checkbox"]:checked + label:before {
-    background-color: #484872; /* Колір фону квадратика */
+    background-color: #484872; 
 }
 
 
 input[type="submit"] {
     background-color: #484872;
-    color: white; /* Колір тексту */
-    padding: 10px 20px; /* Внутрішні відступи */
-    border: none; /* Видаляємо межі */
-    border-radius: 5px; /* Закруглені кути */
-    cursor: pointer; /* Змінюємо курсор на покажчик */
-    display: block; /* Перетворюємо кнопку у блоковий елемент */
-    margin: 0 auto; /* Автоматичні відступи зверху і знизу, та автоматичне центрування зліва і справа */
+    color: white;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: block;
+    margin: 0 auto;
 }
 
-/* Змінюємо стиль кнопки при наведенні */
+
 input[type="submit"]:hover {
     background-color: #9347ce;
 }
-
 
 
 
