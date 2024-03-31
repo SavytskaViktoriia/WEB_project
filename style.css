@@ -213,6 +213,22 @@ p {
     margin-left: -100px;
 }
 
+#openTestBtn {
+    padding: 10px 20px;
+    font-size: 16px; 
+    background-color: #0ea5ea; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+#openTestBtn:hover {
+    background-color: #0bd1d1;
+}
+
+
 .footer {
     width: 100%;
     min-height: 100px;
@@ -220,11 +236,50 @@ p {
     margin: 0;
     background: #484872;
     text-align: left;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
+
 .footer p {
     color: whitesmoke;
     margin: 20px auto;
 }
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0;
+}
+
+
+#openRegistrationBtn {
+    background-color: #42b5eb; 
+    color: #fff; 
+    padding: 12px 24px;
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+}
+
+#openRegistrationBtn:hover {
+    background-color: #0bd1d1; 
+}
+
+#openRegistrationBtn:focus {
+    outline: none; 
+}
+
+#openRegistrationBtn:active {
+    background-color: whitesmoke; 
+    color: #0ea5ea; 
+}
+
+
+
 
 @media only screen and (max-width: 850px){
     .menu-btn {
@@ -283,6 +338,18 @@ p {
     .footer {
         padding: 10px;
     }
+
+    #openRegistrationBtn {
+        padding: 8px 16px; 
+        font-size: 14px; 
+        background-color: #42b5eb; 
+        color: #fff; 
+        border: none; 
+        border-radius: 10px; 
+        cursor: pointer; 
+        transition: all 0.3s ease; 
+        }
+    
 }
 
 img {

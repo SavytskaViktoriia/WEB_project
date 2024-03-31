@@ -102,7 +102,7 @@
         </div>
     </section>
 
-    <section class="test_gerb_game">
+    <section class="test_gerb_game" style="position: relative; text-align: center;">
 
         
           <svg width="250" height="250">
@@ -153,9 +153,35 @@
           </svg>
           
         
-          <button id="openTestBtn">Time to TEST</button>
-    
-    
+          <button id="openTestBtn" style="position: absolute; top: 20px; left: 20px;">Time to TEST</button>
+            <div id="button-container" style="position: absolute; top: 20px; right: 20px;">
+                    <a href="game.html"><button>Start Game</button></a>
+            </div>
+
+          <style>
+            button {
+                background-color: #0ea5ea;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 8px;
+                transition: background-color 0.3s ease;
+            }
+        
+            button:hover {
+                background-color: #0bd1d1;
+            }
+        </style>
+
+
+        
+
         </section> 
 
     <section class="footer">
