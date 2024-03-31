@@ -28,7 +28,8 @@
             <div class="line"></div>
             <h1>A WONDERFUL GIFT</h1>
 
-            <a href="#" class="ctn">Learn More</a>
+            <button id="openRegistrationBtn">Wishes for the tour</button>
+
         </div>
     </header>
 
@@ -101,9 +102,70 @@
         </div>
     </section>
 
+    <section class="test_gerb_game">
+
+        
+          <svg width="250" height="250">
+            <!-- Horizontal lines -->
+            <line x1="20" y1="20" x2="240" y2="20" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="20" y1="19" x2="20" y2="150" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="240" y1="19" x2="240" y2="150" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="130" y1="19" x2="130" y2="250" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <!-- Curved lines -->
+            <path d="M 20,150 Q 60,230 130,250" fill="none" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <path d="M 240,150 Q 200,230 130,250" fill="none" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <!-- Center rectangle -->
+            <rect width="45" height="45" x="165" y="90" stroke="rgb(0, 0, 126)" stroke-width="3" fill="none"/>
+          
+            <!-- Ticks -->
+            <line x1="173" y1="85" x2="173" y2="70" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="183" y1="85" x2="183" y2="70" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="193" y1="85" x2="193" y2="70" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="203" y1="85" x2="203" y2="70" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <line x1="173" y1="155" x2="173" y2="140" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="183" y1="155" x2="183" y2="140" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="193" y1="155" x2="193" y2="140" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="203" y1="155" x2="203" y2="140" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <line x1="160" y1="97" x2="145" y2="97" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="160" y1="107" x2="145" y2="107" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="160" y1="117" x2="145" y2="117" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="160" y1="127" x2="145" y2="127" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <line x1="215" y1="97" x2="230" y2="97" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="215" y1="107" x2="230" y2="107" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="215" y1="117" x2="230" y2="117" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+            <line x1="215" y1="127" x2="230" y2="127" stroke="rgb(0, 0, 126)" stroke-width="3"/>
+          
+            <!-- Text labels -->
+            <text x="175" y="109" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">1</text>
+            <text x="192" y="109" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">0</text>
+            <text x="175" y="128" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">0</text>
+            <text x="192" y="128" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">1</text>
+
+            <text x="110" y="15" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">2</text>
+            <text x="120" y="15" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">0</text>
+            <text x="130" y="15" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">0</text>
+            <text x="140" y="15" font-family="Arial" font-size="15" fill="rgb(0, 0, 126)">3</text>
+          </svg>
+          
+        
+          <button id="openTestBtn">Time to TEST</button>
+    
+    
+        </section> 
+
     <section class="footer">
         <p>ADVENTURE</p>
         <p>Made by Savytska Viktoriia</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/ssavits.ka"><img src="./images/instagram-icon.png" alt="Instagram" style="width: 40px; height: 40px;"></a>
+        </div>
+
     </section>
 
     <script>
@@ -114,6 +176,20 @@
             navlinks.classList.toggle('mobile-menu');
         });
     </script>
+
+
+    <script> 
+        document.getElementById("openRegistrationBtn").addEventListener("click", function() {
+            window.location.href = "registr.html";
+        });
+    </script>
+
+    <script> 
+        document.getElementById("openTestBtn").addEventListener("click", function() {
+            window.location.href = "test.html";
+        });
+    </script>
+
     
 </body>
 </html>
