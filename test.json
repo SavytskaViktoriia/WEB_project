@@ -1,0 +1,51 @@
+{ 
+    "testName": "Test",
+    "questions": [
+      {
+        "question": "In which country the largest mountain in the world is located ?",
+        "answers": [
+          { "answer": "China", "isCorrect": false },
+          { "answer": "Nepal", "isCorrect": true },
+          { "answer": "India", "isCorrect": false },
+          { "answer": "Tibet", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the longest river in the world?",
+        "answers": [
+          { "answer": "Amazon", "isCorrect": true },
+          { "answer": "Nile", "isCorrect": false },
+          { "answer": "Yangtze", "isCorrect": false },
+          { "answer": "Mississippi", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which sea surrounds Italy?",
+        "answers": [
+        { "answer": "Black Sea", "isCorrect": false },
+        { "answer": "Adriatic Sea", "isCorrect": false },
+        { "answer": "Tyrrhenian Sea", "isCorrect": true },
+        { "answer": "Caspian Sea", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which country is the largest by area?",
+        "answers": [
+        { "answer": "China", "isCorrect": true },
+        { "answer": "France", "isCorrect": false },
+        { "answer": "Canada", "isCorrect": false },
+        { "answer": "USA", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the largest lake in the world by area?",
+        "answers": [
+          { "answer": "Lake Ladoga", "isCorrect": false },
+          { "answer": "Lake Baikal", "isCorrect": true },
+          { "answer": "Caspian Sea", "isCorrect": false },
+          { "answer": "Great Bear Lake", "isCorrect": false }
+        ]
+      }
+      
+    ]
+}
